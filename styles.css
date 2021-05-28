@@ -56,8 +56,10 @@ header {
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  background-color: lightblue;
 }
 
 main {
   height: 90vh;
+  background-color: lightgray;
 }
