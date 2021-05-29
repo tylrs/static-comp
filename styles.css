@@ -72,6 +72,9 @@ main {
 
 }
 
+h2 {
+  font-size: 3rem;
+}
 /* card styling */
 .card-container {
   height: 20rem;
@@ -81,7 +84,7 @@ main {
 
 .card-header {
   position: relative;
-  height:30%;
+  height:40%;
   width:100%;
 }
 
@@ -115,10 +118,19 @@ main {
 }
 
 .card-info {
-  height: 70%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: lightyellow;
+}
+
+h4 {
+  font-size: 110%;
+}
+
+.restaurant-title h3 {
+  font-size: 2rem;
 }
 /* nav */
 .title-container {
