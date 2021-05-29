@@ -90,11 +90,12 @@ main {
   z-index: 0;
   height: 100%;
   width: 100%;
-  /* display: none; */
 }
 
 .overlay {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -103,16 +104,21 @@ main {
 }
 
 .card-header i {
+  color: white;
+  font-size: 2rem;
   z-index: 2;
 }
 
-.total-spent {
+.times-visited {
   z-index: 2;
   color: white;
 }
 
 .card-info {
   height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 /* nav */
 .title-container {
