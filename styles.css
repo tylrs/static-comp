@@ -75,6 +75,7 @@ main {
 .card-container {
   height: 20rem;
   width: 10rem;
+  border: 1px solid black;
 }
 
 .title-container {
