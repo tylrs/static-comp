@@ -55,10 +55,10 @@ body {
 header {
   height: 10vh;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
 
-  background-color: black;
+  /* background-color: black; */
   /* background-image: url('./assets/fire.png'); */
 }
 
@@ -79,6 +79,9 @@ main {
 h2 {
   font-size: 3rem;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  /* width: 50%; */
 }
 /* card styling */
 .card-container {
@@ -140,6 +143,14 @@ h4 {
   font-size: 2rem;
 }
 /* nav */
+button {
+    background-color: white;
+}
+
+nav {
+  font-size: 1.5rem;
+}
+
 .title-container {
   display: flex;
   flex-direction: column;
