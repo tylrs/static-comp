@@ -101,7 +101,7 @@ h2 {
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.35);
   opacity: 1;
   z-index: 1;
 }
