@@ -50,7 +50,11 @@ q:before, q:after {
 /* Body */
 body {
   height: 100vh;
+  width: 100vw;
   background-image: url('./assets/fire.png');
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
 }
 
 main {
@@ -191,4 +195,12 @@ nav button {
 
 p:hover {
   color: red;
+}
+
+button:hover {
+  color: red;
+}
+
+i:hover {
+  color:red;
 }
