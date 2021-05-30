@@ -51,7 +51,7 @@ q:before, q:after {
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url('./assets/fire.png');
+  /* background-image: url('./assets/fire.png'); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
   /* background-attachment: fixed; */
@@ -71,7 +71,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: .7rem;
+  gap: .9rem;
 }
 
 h1 {
@@ -86,6 +86,7 @@ h1 {
 .card-container {
   height: 18rem;
   width: 100%;
+  max-width: 25rem;
   /* border: 1px solid black; */
 }
 
@@ -209,6 +210,23 @@ i:hover {
   color:red;
 }
 /* media queries */
+@media screen and (max-width: 844px) {
+  .main-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-container {
+    height: 20rem;
+    max-width: 80%;
+    justify-self: center;
+  }
+
+  h1 {
+    width: auto;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .main-cards {
     display: flex;
@@ -244,8 +262,8 @@ i:hover {
   }
 
   header {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr .5fr;
+    grid-template-columns: 1fr 1fr .8fr;
+    /* grid-template-rows: 1fr .5fr; */
     grid-template-areas:
     "empty empty empty"
     "nav title user"
