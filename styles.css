@@ -44,28 +44,26 @@ q:before, q:after {
 }
 
 * {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 /* Body */
 body {
   height: 100vh;
-}
-
-header {
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-
-  /* background-color: black; */
-  /* background-image: url('./assets/fire.png'); */
+  width: 100vw;
+  background-image: url('./assets/fire.png');
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
 }
 
 main {
-  height: 90vh;
+  height: 80vh;
   /* background-color: lightgray; */
-  background-image: url('./assets/fire.png');
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  padding: 1%;
+  /* background-image: url('./assets/fire.png'); */
   /* background-image: url('./assets/skull-background.jpg'); */
 }
 
@@ -73,21 +71,22 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: .5rem;
+  gap: .7rem;
 }
 
-h2 {
-  font-size: 3rem;
+h1 {
+  font-size: 2rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
-  /* width: 50%; */
+  margin: .5% 0 1.5% 0;
+  width: 50%;
 }
 /* card styling */
 .card-container {
-  height: 20rem;
+  height: 18rem;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .card-header {
@@ -109,7 +108,7 @@ h2 {
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgb(9 9 9 / 43%);
   opacity: 1;
   z-index: 1;
 }
@@ -131,8 +130,9 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: black;
-  color: red;
+  background-color: rgb(135 135 135 / 56%);
+  color: white;
+  font-size: .8rem
 }
 
 h4 {
@@ -140,18 +140,67 @@ h4 {
 }
 
 .restaurant-title h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 /* nav */
+header {
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr .2fr;
+  grid-template-rows: .5fr 1fr;
+  grid-template-areas:
+    "empty user"
+    "nav title";
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  /* background-color: black; */
+  /* background-image: url('./assets/fire.png'); */
+}
+
+i {
+  color: white;
+}
+
 button {
-    background-color: white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 nav {
+  /* display: flex; */
+  align-self: center;
   font-size: 1.5rem;
+  padding: .5%;
+  color: white;
+  grid-area: nav;
+}
+
+nav button {
+  font-size: 1rem;
+  margin-right: 2%;
+}
+
+.user-container {
+  align-self: center;
+  justify-self: center;
+  grid-area: user;
 }
 
 .title-container {
-  display: flex;
-  flex-direction: column;
+  align-self: center;
+  font-size: 2rem;
+  color: white;
+  grid-area: title;
+}
+
+p:hover {
+  color: red;
+}
+
+button:hover {
+  color: red;
+}
+
+i:hover {
+  color:red;
 }
