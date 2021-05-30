@@ -44,28 +44,20 @@ q:before, q:after {
 }
 
 * {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 /* Body */
 body {
   height: 100vh;
-}
-
-header {
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-
-  /* background-color: black; */
-  /* background-image: url('./assets/fire.png'); */
+  background-image: url('./assets/fire.png');
 }
 
 main {
   height: 90vh;
   /* background-color: lightgray; */
-  background-image: url('./assets/fire.png');
+  padding: 1%;
+  /* background-image: url('./assets/fire.png'); */
   /* background-image: url('./assets/skull-background.jpg'); */
 }
 
@@ -73,19 +65,20 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: .5rem;
+  gap: .7rem;
 }
 
-h2 {
-  font-size: 3rem;
+h1 {
+  font-size: 2rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
-  /* width: 50%; */
+  margin: .5% 0 1.5% 0;
+  width: 50%;
 }
 /* card styling */
 .card-container {
-  height: 20rem;
+  height: 18rem;
   width: 100%;
   border: 1px solid black;
 }
@@ -133,6 +126,7 @@ h2 {
   justify-content: space-around;
   background-color: black;
   color: red;
+  font-size: .8rem
 }
 
 h4 {
@@ -140,18 +134,48 @@ h4 {
 }
 
 .restaurant-title h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 /* nav */
+header {
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr .2fr;
+  grid-template-rows: .5fr 1fr;
+  grid-template-areas:
+    "empty user"
+    "nav title";
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  /* background-color: black; */
+  /* background-image: url('./assets/fire.png'); */
+}
+
+i {
+  color: white;
+}
+
 button {
-    background-color: white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 nav {
+  display: flex;
   font-size: 1.5rem;
+  padding: .5%;
+  color: white;
+  grid-area: nav;
+}
+
+.user-container {
+  align-self: center;
+  grid-area: user;
 }
 
 .title-container {
-  display: flex;
-  flex-direction: column;
+  align-self: center;
+  font-size: 2rem;
+  color: white;
+  grid-area: title;
 }
