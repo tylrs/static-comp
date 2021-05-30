@@ -204,3 +204,21 @@ button:hover {
 i:hover {
   color:red;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .main-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .card-container {
+    height: 20rem;
+    max-width: 80%;
+  }
+
+  .card-info {
+    align-items: center;
+  }
+}
