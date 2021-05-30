@@ -126,8 +126,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 1;
+  background-color: rgb(135 135 135 / 56%);
   color: white;
   font-size: .8rem
 }
