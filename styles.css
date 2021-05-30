@@ -162,9 +162,9 @@ i {
   color: white;
 }
 
-h2 {
-  /* width: 1vw; */
-}
+/* h2 {
+  font-size: 5vw;
+} */
 
 button {
   color: white;
@@ -192,8 +192,9 @@ nav button {
 }
 
 .title-container {
+  display: flex;
   align-self: center;
-  font-size: 2rem;
+  font-size: 3vw;
   color: white;
   grid-area: title;
 }
@@ -225,6 +226,7 @@ i:hover {
     width: auto;
     text-align: center;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -248,13 +250,14 @@ i:hover {
     width: auto;
   }
 
-  h2 {
+  /* h2 {
     font-size: 5vw;
-  }
+  } */
 
   .title-container {
     align-self: center;
     justify-self: center;
+    font-size: 5vw;
   }
 
   .nav-button {
