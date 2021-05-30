@@ -161,6 +161,10 @@ i {
   color: white;
 }
 
+h2 {
+  /* width: 1vw; */
+}
+
 button {
   color: white;
   background-color: rgba(0, 0, 0, 0);
@@ -220,5 +224,35 @@ i:hover {
 
   .card-info {
     align-items: center;
+  }
+
+  h1 {
+    width: auto;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  .title-container {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  header {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .5fr;
+    grid-template-areas:
+    "empty empty empty"
+    "nav title user"
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
   }
 }
