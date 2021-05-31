@@ -18,10 +18,10 @@ This project was a challenge to recreate the layout of a given comp and to make 
 
 ## Screenshots
 Desktop View
-![Desktop View](./assets/desktop-view.png)
+![Desktop View](./assets/desktop-view2.png)
 
 Mobile View
-![Mobile View](./assets/mobile-view.png)
+![Mobile View](./assets/mobile-view2.png)
 
 Original Comp
 ![Original Comp](./assets/original-comp.png)
