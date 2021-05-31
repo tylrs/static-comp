@@ -1,3 +1,4 @@
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, button, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -68,6 +69,7 @@ h2 {
   margin: .5% 0 2% 0;
   width: 50%;
 }
+
 /* card styling */
 .card-container {
   height: 18rem;
@@ -150,6 +152,7 @@ h4 {
   font-size: 1.5rem;
   background-color: rgb(136 28 1);
 }
+
 /* nav */
 header {
   height: 12vh;
@@ -216,6 +219,7 @@ i:hover {
   color:red;
   cursor: pointer;
 }
+
 /* media queries */
 @media screen and (max-width: 928px) {
   .main-cards {
