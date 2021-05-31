@@ -35,7 +35,7 @@ Original Comp
 
 ## Setup/execution-instructions
 
-1. Clone copy of repo to your machine: `git@github.com:tylrs/whats-cookin.git`
+1. Clone copy of repo to your machine: `git@github.com:tylrs/static-comp.git`
 2. CD into the directory
 3. Open index.html in your browser
 4. Change the width of your browser window to see the responsive design in action!
