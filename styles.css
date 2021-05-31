@@ -74,7 +74,7 @@ main {
   gap: .9rem;
 }
 
-h1 {
+h2 {
   font-size: 2rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
@@ -162,7 +162,7 @@ h4 {
 header {
   height: 10vh;
   display: grid;
-  grid-template-columns: 1fr .2fr;
+  grid-template-columns: 1fr .25fr;
   grid-template-rows: .5fr 1fr;
   grid-template-areas:
     "empty user"
@@ -190,7 +190,7 @@ button {
 nav {
   display: flex;
   align-self: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: .5%;
   color: white;
   grid-area: nav;
@@ -210,6 +210,7 @@ nav button {
 .title-container {
   display: flex;
   align-self: center;
+  justify-self: center;
   font-size: 3vw;
   color: white;
   grid-area: title;
@@ -227,7 +228,7 @@ i:hover {
   color:red;
 }
 /* media queries */
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 928px) {
   .main-cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -238,9 +239,13 @@ i:hover {
     justify-self: center;
   }
 
-  h1 {
+  h2 {
     width: auto;
     text-align: center;
+  }
+
+  .title-container {
+    font-size: 3.8vw;
   }
 
 }
@@ -262,7 +267,7 @@ i:hover {
     font-size: 4vw;
   }
 
-  h1 {
+  h2 {
     width: auto;
   }
 
@@ -273,7 +278,7 @@ i:hover {
   .title-container {
     align-self: center;
     justify-self: center;
-    font-size: 5vw;
+    font-size: 7.6vw;
   }
 
   .nav-button {
