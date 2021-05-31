@@ -1,4 +1,4 @@
-# I Rock Food
+# A Rocker Reviews Food- Static Comp Challenge
 
 Turing 2103 FE Mod 2 Static Comp Challenge
 
@@ -14,7 +14,7 @@ Turing 2103 FE Mod 2 Static Comp Challenge
 
 ## Introduction
 
-This project was a challenge to recreate the layout of a given comp and to make the site responsive across multiple screen sizes. We were able to exercise creative freedom with font, colors, copy, and images.
+This project was a challenge to recreate the layout of a given comp and to make the site responsive across multiple screen sizes. We were able to exercise creative freedom with font, colors, copy, and images. The site did not need to be functional in any way. The purpose of the assignment was to get further practice with HTML and CSS.
 
 ## Screenshots
 Desktop View
