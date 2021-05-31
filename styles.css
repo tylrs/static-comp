@@ -50,7 +50,6 @@ body {
 }
 
 main {
-  height: 78vh;
   padding: 1%;
   overflow-y: scroll;
 }
