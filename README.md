@@ -17,16 +17,21 @@ Turing 2103 FE Mod 2 Static Comp Challenge
 This project was a challenge to recreate the layout of a given comp and to make the site responsive across multiple screen sizes. We were able to exercise creative freedom with font, colors, copy, and images.
 
 ## Screenshots
-- [Desktop View]()
-- [Mobile View]()
-- [Original Comp]()
+Desktop View
+![Desktop View](./assets/desktop-view.png)
+
+Mobile View
+![Mobile View](./assets/mobile-view.png)
+
+Original Comp
+![Original Comp](./assets/original-comp.png)
 
 ## Technologies
 - HTML
 - CSS
 
 ## Link to Deployed Project
-- [Click Here()
+- [Click Here]()
 
 ## Setup/execution-instructions
 
