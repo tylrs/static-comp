@@ -31,7 +31,7 @@ Original Comp
 - CSS
 
 ## Link to Deployed Project
-- [Click Here]()
+- [Click Here](https://tylrs.github.io/static-comp/)
 
 ## Setup/execution-instructions
 
